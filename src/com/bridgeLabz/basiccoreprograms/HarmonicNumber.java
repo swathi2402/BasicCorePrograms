@@ -2,13 +2,13 @@ package com.bridgeLabz.basiccoreprograms;
 
 public class HarmonicNumber {
 	public static void main(String[] args) {
-		int ValueOfN = 3;
+		int valueOfN = 3;
 		float harmonicValue = 0;
-		if(ValueOfN != 0) {
-			for (int index = 1; index <= ValueOfN; index++) {
+		if(valueOfN != 0) {
+			for (int index = 1; index <= valueOfN; index++) {
 				harmonicValue += (float)1 / index;
 		    }
 		}
-		System.out.println("Final Harmonic Value of " + ValueOfN + " is " + harmonicValue);
+		System.out.println("Final Harmonic Value of " + valueOfN + " is " + harmonicValue);
 	}
 }
